@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form input</title>
+</head>
+<body>
+
+	<!--
+
+		1. type = done
+		2. name = done
+		3. id = done
+		4. placeholder = done
+		5. get = done
+		6. post = done
+		7. action = done
+		8. method = done
+
+	 -->
+
+	<form method="POST" action="proccess.html">
+		<label>Firstname: </label>
+
+		<br> 
+
+		<input type="text" name="firstname" id="firstname" placeholder="Firstname" required>
+
+		<br><br>
+
+		<label>Lastname: </label>
+
+		<br>
+
+		<input type="text" name="lastname" id="lastname" placeholder="Lastname" required>
+
+
+		<br><br>
+
+		<label>Email: </label>
+
+		<br>
+
+		<input type="email" name="email" id="email" placeholder="Email address" required>
+
+		<br><br>
+
+		<label>Mobile Number: </label>
+
+		<br>
+
+		<input type="number" name="phone" id="phone" placeholder="Mobile Number" required>
+
+		<br><br>
+
+		<label>Gender: </label>
+
+		<br>
+
+		<select name="gender" id="gender" required>
+			<option value=""> -- select --  </option>
+
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+			
+		</select>
+
+		<br><br>
+
+		<label>Male: </label>
+
+		<input type="radio" name="gender" value="male" required>
+
+		<label>Female</label>
+
+		<input type="radio" name="gender" value="female" required>
+
+
+		<br><br>
+
+		<label>Password: </label>
+
+		<br>
+
+		<input type="password" name="password" id="password" placeholder="Password" required>
+
+		<br><br>
+
+		<label>Confirm Password: </label>
+
+		<br>
+
+		<input type="password" name="cpassword" id="cpassword" placeholder="Retype Password" required>
+
+		<br><br>
+
+
+		<input type="submit" value="Register">
+		
+	</form>
+
+</body>
+</html>

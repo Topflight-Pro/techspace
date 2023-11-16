@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Style Form</title>
+
+	<style type="text/css">
+		
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+
+		body{
+			background: black;
+		}
+
+		.container{
+			border: 5px solid red; 
+			width: 400px;
+		}
+
+		.legend{
+			color: black; 
+			background: white; 
+			padding: 10px; 
+			font-size: 20px;
+		}
+
+		#formcss{
+			width:200px;
+		}
+
+		input{
+
+			border: 3px solid yellow; 
+			border-radius: 5px; 
+			width: 240px; 
+			margin: 20px 0px 10px 10px; 
+			background: blue; 
+			color: white;
+		}
+
+		input:hover{
+
+			border: 3px solid red; 
+			border-radius: 5px; 
+			width: 240px; 
+			margin: 20px 0px 10px 10px; 
+			background: blue; 
+			color: white;
+		}
+
+		.btn{
+			border-radius: 5px;  
+			margin: 10px 0px 10px 10px; 
+			width: 90px; padding: 10px;
+		}
+
+		.btn-yellow{
+			background: yellow; 
+			color: black;
+			border: 2px solid yellow;
+		}
+
+		.btn-red{
+			background: red; 
+			color: black;
+			border: 2px solid red;
+		}
+
+		.btn-green{
+			background: green; 
+			color: black;
+			border: 2px solid green;
+		}
+
+
+	</style>
+
+</head>
+
+
+<body>
+
+
+	<!-- 
+
+		Method of writting css
+
+		1. Inline Css
+		2. Internal Css
+		3. External Css
+
+	 -->
+
+	 <!-- 
+
+	 	Our Color Scheme
+
+	 	1. Black color for the body
+	 	2. Yellow color for the text 
+
+	  -->
+
+
+		<fieldset class="container">
+
+			<legend class="legend">Login Form</legend>
+			
+			<form action="dashboard.html" method="POST" id="formcss">
+
+				<input required name="email" id="email" placeholder="Email Address" type="email">
+
+				<input required type="password" name="password" id="password" placeholder="password">
+
+				<button type="submit" id="submitButton1" class="btn btn-green">Login</button>
+				<button type="submit" id="submitButton2" class="btn btn-green">Login</button>
+			</form>
+		</fieldset>
+
+
+
+
+</body>
+</html>
