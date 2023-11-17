@@ -1,0 +1,96 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background: black;
+	color: white;
+}
+
+.container{
+	border: 5px solid red; 
+	width: 400px;
+}
+
+.legend{
+	color: black; 
+	background: white; 
+	padding: 10px; 
+	font-size: 20px;
+}
+
+#formcss{
+	width:200px;
+}
+
+input{
+
+	border: 3px solid yellow; 
+	border-radius: 5px; 
+	width: 240px; 
+	margin: 20px 0px 10px 10px; 
+	background: blue; 
+	color: white;
+}
+
+input:hover{
+
+	border: 3px solid red; 
+	border-radius: 5px; 
+	width: 240px; 
+	margin: 20px 0px 10px 10px; 
+	background: blue; 
+	color: white;
+}
+
+.btn{
+	border-radius: 5px;  
+	margin: 10px 0px 10px 10px; 
+	width: 90px; padding: 10px;
+}
+
+.btn-yellow{
+	background: yellow; 
+	color: black;
+	border: 2px solid yellow;
+}
+
+.btn-red{
+	background: red; 
+	color: black;
+	border: 2px solid red;
+}
+
+.btn-green{
+	background: green; 
+	color: black;
+	border: 2px solid green;
+}
+
+
+/*
+| Dashboard Css|	
+*/
+
+.dash-wrap{
+
+	width: 1200px;
+	background: white;
+	height: 400px;
+	margin: 0px auto;
+	color: black;
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+.welcome{
+	text-align: center;
+	padding-top: 30px;
+}
+/*font-family: 'Anton', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+/*font-family: 'Space Grotesk', sans-serif;*/
