@@ -36,7 +36,6 @@ input{
 }
 
 input:hover{
-
 	border: 3px solid red; 
 	border-radius: 5px; 
 	width: 240px; 
