@@ -1,0 +1,149 @@
+*{
+    padding: 0px; /*  This is to desable all the webpage padding  */
+    margin: 0px; /*  This is to desable all the webpage marging  */
+}
+
+h1, h2, h3, h4{
+    text-align: center;
+    color: #1F386B;
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+.main-body{
+    background: #d1d1d1;
+    color: #000;
+}
+
+.header{
+    background: #fff;
+    color: #000;
+    width: 1600px;
+    height: 100px;
+    border-bottom: 2px solid #E41937;
+}
+
+.navbar{
+    margin: 0px auto;
+    width: 1300px;
+}
+
+.logo{
+    width: 300px;
+    height: 89px;
+    float: left;
+}
+
+.logo img{
+    width: 200px;
+    height: 72px;
+}
+
+.list{
+    width: 500px;
+    height: 89px;
+    float: right;
+    margin-right: -222px;
+}
+
+.list ul li{
+   display: inline-block; 
+   font-size: 16px;
+   font-weight: bold;
+   margin-top: 30px;
+   padding: 10px;
+}
+
+.list ul li:hover{
+    background: #1F386B;
+/*    background-image: url("../../assets/image/1.jpg");*/
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.active{
+    background: #1F386B;
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.wrapper{
+    background: #fff;
+    width: 1300px;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+.banner{
+    width: 1180px;
+    border: 2px solid #E41937;
+    margin: 0px auto;
+}
+
+.banner img{
+    width: 1180px;
+    height: 500px;
+}
+
+.whoweare{
+    color: #1e1e1e;
+    width: 1180px;
+    margin: 0 auto;
+    padding-bottom: 300px
+}
+
+.whoweare .whoweare-image{
+    width: 100px;
+    position: flex;
+    float: left;
+    clear: both;
+
+}
+
+.whoweare-text{
+    width: 520px;
+    float: right;
+}   
+
+.news{
+    width: 1180px;
+    color: #1e1e1e;
+    margin: 0 auto;
+    padding-bottom: 300px;
+}
+
+.new-box{
+    width: 350px;
+    text-align: left;
+    height: 200px;
+    float: left;
+    margin-left: 40px;
+}
+
+.new-box img{
+    width: 300px;
+    height: 160px;
+}
+
+.new-box h4{
+    margin-top: -30px;
+}
+
+.new-box p{
+    margin-top: -25px;
+}
+
+footer{
+    background: #1F386B;
+    color: #fff;
+    padding: 70px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
